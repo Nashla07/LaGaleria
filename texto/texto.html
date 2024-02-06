@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Metal+Mania&family=Nosifer&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id= "audio1" autoplay controls loop> 
+        <source src="audio/audio.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="contenido1" class="contenido">
+        <p> Impulsadas por sensaciones que desafían la realidad misma, las fobias se manifiestan como sombras que acechan, persiguiéndonos con lo más desagradable e irracional que reside en nuestras mentes. 
+        </p>
+        <button onclick="mostrarNuevoContenido()">ଵ˛̼ଵ</button>
+    </div>
+
+    <div id="nuevoContenido" class="contenido">
+        <p> Estas manifestaciones de temor tejen una trama intrincada que se enreda con nuestros pensamientos más profundos, llevándonos a enfrentar lo inexplorado de nuestras propias ansiedades.
+        </p>
+        <button onclick="mostrarTercerContenido()">〳 ͡° Ĺ̯ ͡° 〵</button>
+    </div>
+
+    <div id="tercerContenido" class="contenido">
+        <p> Afrontar estas sombras requiere valentía, una luz interna capaz de disipar la oscuridad que se cierne sobre nuestros pensamientos más íntimos. </p>
+        
+        <a href="../menu1/menu1.html"><button>(;´༎ຶٹ༎ຶ`)</button></a>
+    </div>
+
+    <script>
+        function mostrarNuevoContenido() {
+            var nuevoContenido = document.getElementById('nuevoContenido');
+            nuevoContenido.style.display = 'block';
+        }
+
+        function mostrarTercerContenido() {
+            var tercerContenido = document.getElementById('tercerContenido');
+            tercerContenido.style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>

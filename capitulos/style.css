@@ -1,0 +1,30 @@
+body {
+      background-image: url(fondo/Gif.gif);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: "Metal Mania", system-ui;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Para ocupar toda la altura de la ventana */
+    }
+    .metal-mania-regular {
+      font-weight: 400;
+      font-style: normal;
+}
+
+    .chapter-link {
+      text-decoration: none;
+      color: white;
+      margin: 20px;
+      text-align: center;
+    }
+    .chapter-image {
+      width: 400px; /* Ajusta el ancho de la imagen según sea necesario */
+      height: auto;
+      border-radius: 10px; /* Puedes ajustar el radio de borde según sea necesario */
+      margin-bottom: 10px;
+    }
+   

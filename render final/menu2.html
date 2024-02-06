@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Página Web</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: relative;
+    }
+    #audio-player {
+      position: fixed;
+      bottom: 0;
+      width: 10%;
+      background-color: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<header>
+  <div style="position: fixed; top: 10px; left: 10px;">
+    <a href="../menu1/menu1.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+            <path d="M12.74 2.32a1 1 0 0 0-1.48 0l-9 10A1 1 0 0 0 3 14h2v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7h2a1 1 0 0 0 1-1 1 1 0 0 0-.26-.68z"></path>
+        </svg>
+    </a>
+</div>
+</header>
+<body>
+
+<audio controls autoplay loop id="audio-player">
+  <source src="terror.mp3" type="audio/mp3">
+  <!-- Asegúrate de reemplazar "tu_archivo_de_sonido.mp3" con la ruta correcta a tu archivo de sonido -->
+  Tu navegador no soporta la etiqueta de audio.
+</audio>
+
+<a href="../capitulos/capitulos.html">
+  <img src="menu2.png" alt="combinacion">
+  <!-- Reemplaza "otra_pagina.html" con la ruta correcta a tu otra página y "imagen.jpg" con la ruta correcta a tu imagen -->
+</a>
+
+</body>
+</html>

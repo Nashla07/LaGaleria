@@ -1,0 +1,45 @@
+ body {
+            background-color: black;
+            color: white; /* Puedes cambiar el color del texto si lo necesitas */
+            font-family: "Metal Mania", system-ui; /* Puedes cambiar la fuente si lo prefieres */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            animation: blink 1s infinite; /* Nombre de la animación, duración y número de repeticiones (infinito en este caso) */
+        }
+
+        @keyframes blink {
+            0%, 50%, 100% {
+                opacity: 0;
+            }
+            25%, 75% {
+                opacity: 1;
+            }
+        }
+        audio {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            max-width: 100px;
+        }
+    
+        h2 {
+            position: absolute;
+            bottom: 20px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: "Cedarville Cursive";
+        }
