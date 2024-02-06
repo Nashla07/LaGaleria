@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.image {
+  flex: 1;
+  /* Estilos adicionales para la imagen grande */
+}
+
+.content {
+  display: flex;
+  flex: 2;
+}
+
+.small-image {
+  flex: 1;
+  /* Estilos adicionales para la imagen pequeña */
+}
+
+.text {
+  flex: 2;
+  /* Estilos adicionales para el texto */
+}
